@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_333333s">#e0333333</color>
+    <color name="white">#ffffff</color>
+    <!--通知栏和标题颜色-->
+    <color name="color_title">#ff7700</color>
+    <!--首页tab未点击-->
+    <color name="color_tab_false">#898989</color>
+    <color name="color_tab_true">#008de1</color>
+    <color name="color_tian_blue">#00bfff</color>
+    <!--1dp的线条的颜色-->
+    <color name="color_dcdcdc">#dcdcdc</color>
+    <color name="color_tab_d0d0d0">#d0d0d0</color>
+    <color name="background_tab_pressed">#EFEFEF</color>
+    <color name="transparent">#00000000</color>
+    <!--各种黑色-->
+    <color name="color_333333">#333333</color>
+    <color name="color_666666s">#e0666666</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_000000">#000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="wtm_color_title">#ff7700</color>
+    <color name="black">#000000</color>
+    <color name="color_f6f6f6">#f6f6f6</color>
+    <color name="color_e3e3e3">#e3e3e3</color>
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+    <!--&lt;!&ndash; 仿IOS的dialog &ndash;&gt;-->
+    <!--<style name="UIAlertViewStyle" parent="@android:style/Theme.Dialog">-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--<item name="android:windowIsFloating">true</item>-->
+        <!--<item name="android:windowFrame">@null</item>-->
+        <!--<item name="android:backgroundDimEnabled">true</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+    <!--</style>-->
+
+    <!--<style name="dialog" parent="android:style/Theme.Dialog">-->
+        <!--&lt;!&ndash; 背景颜色及透明程度 &ndash;&gt;-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:windowFrame">@null</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--&lt;!&ndash; 是否浮现在activity之上 &ndash;&gt;-->
+        <!--<item name="android:windowIsFloating">true</item>-->
+        <!--<item name="android:backgroundDimEnabled">false</item>-->
+        <!--<item name="android:windowIsTranslucent">false</item>&lt;!&ndash; 半透明 &ndash;&gt;-->
+        <!--<item name="android:windowContentOverlay">@android:color/black</item>-->
+    <!--</style>-->
+
+
+
+
+
+
+</resources>

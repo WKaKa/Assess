@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout
+        android:background="@color/color_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px98">
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/m_title_return"
+            android:layout_width="@dimen/px62"
+            android:layout_height="@dimen/px80"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/px20"
+            android:layout_marginLeft="@dimen/px20"
+            android:src="@mipmap/top_return"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/m_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标题"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/px35"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/m_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/px30"
+                android:padding="@dimen/px30"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <include layout="@layout/view_dcdcdc"/>
+</com.zhy.autolayout.AutoLinearLayout>
